@@ -153,7 +153,40 @@ MLflow UI should load successfully.
 =====================================
 END OF FILE
 =====================================
-
+=========================================
+12. DVC
+==========================================
 dvc init
 
 dvc repro
+
+=========================================
+13. AWS Deployment 
+#optinal
+
+sudo apt-get update -y
+
+sudo apt-get upgrade
+
+#required
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
+ connect your github with aws
+   go to your repo and click on settings in action slide to runner and click on it.
+   click on self new hosted runner and select linux machince and execute those commands one by one in ec2
+   
+   ON lefthand side sceret and variables add security keys go to action ADD AWS_ACCESS_KEY_ID
+   AWS_SCERET_ACCESS_KEY,AWS_REGION,ECR_LOGIN_URI,ECR_REPOSITORY_NAME
+
+395310663337.dkr.ecr.us-east-1.amazonaws.com/chinuteja/mlfproject
+
+
+
