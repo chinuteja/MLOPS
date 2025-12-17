@@ -186,7 +186,7 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
    ON lefthand side sceret and variables add security keys go to action ADD AWS_ACCESS_KEY_ID
    AWS_SCERET_ACCESS_KEY,AWS_REGION,ECR_LOGIN_URI,ECR_REPOSITORY_NAME
 
-395310663337.dkr.ecr.us-east-1.amazonaws.com/chinuteja/mlfproject
+395310663337.dkr.ecr.us-east-1.amazonaws.com/chinuteja/mlfproject (url for ecr)
 
 
 
